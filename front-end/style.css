@@ -1,0 +1,99 @@
+/*Miguel Frugoni Portfolio*/
+
+body {
+	background-color: #14154F;
+        font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: medium;
+	font-weight: normal;
+	line-height: 1.7em;
+	color: white;
+	margin: 70px;
+
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+	border-radius: 0.5em;
+}
+
+h1 {
+	font-size: 230%;
+	font-weight: bold;
+	border-bottom: solid;
+	border-color: #A5A6F6;
+	border-width: 3px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 150%;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 120%;
+	font-weight: normal;
+}
+
+
+
+.titulo {
+	width: 200px;
+	border-color: #14154F;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 1em;
+
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) -34.71%, rgba(255, 255, 255, 0) 100%);
+mix-blend-mode: normal;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+	padding: 10px;
+	padding-left: 25px;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+section.descripcion {
+	border-color: #343573;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 1.5em;
+	background-color: #343573;
+	padding: 25px;
+	margin-top: 120px;
+}
+
+ul.descripcion {
+	margin-top:10px;
+}
+
+section a:link {
+	color: white;
+	font-style: italic;
+	font-size: 110%;
+	text-decoration: none;
+}
+section a:visited {
+	color: purple;
+	font-size: 110%;
+}
+section a:hover {
+	color: #007e7e;
+	text-decoration: underline;
+}
+section a:focus {
+	color: green;
+}
+section a:active {
+	color: #333333;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  font-size: 90%;
+}
+
