@@ -21,12 +21,14 @@ header {
 	background-color: #14154F;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.19);
 	margin: 0px;
-	padding: 10px 30px;
+	/*padding: 10px 30px;*/
 }
 
 /*Logo Argentina Programa*/
 header img#aplogo {
-	float: right;
+	position: fixed;
+	left: 20px;
+	top: 70px;
 }
 
 /*Foto de perfil*/
@@ -68,9 +70,15 @@ h4 {
 	text-decoration: underline;
 }
 
-i {
-	padding-right: 5%;
-	font-size: 1.5em;
+div.contacto#top {
+	margin-left: 90%;
+	margin-right: 0%;
+	padding: 20px 0px 20px 0px;
+}
+
+div.contacto#top i {
+	padding-right: 10%;
+	font-size: 1.7em;
 }
 
 /*Titulo de cada section*/
@@ -103,20 +111,12 @@ ul.descripcion {
 	margin-top:10px;
 }
 
-
-
 /*Lista de iconos contacto*/
 .contacto li {
 	list-style-type: none;
 	display: inline;
 	padding-right: 3%;
 	font-size: 1.5em;
-}
-
-#top {
-	width: 50%;
- 	margin-left: 80%S;
-	
 }
 
 /*Estilos de links*/
@@ -142,24 +142,23 @@ section a:active {
 }
 
 /*Estilos de links ("sobre" de enviar mail)*/
-.mail a:link {
+.contacto a:link {
 	color: white;
 }
-.mail a:visited {
+.contacto a:visited {
 	color: #999;
 }
-.mail a:hover {
+.contacto a:hover {
 	color: #007e7e;
 }
-.mail a:focus{
-	color: #999;
+.contacto a:focus{
+	color:#999 ;
 }
-.mail a:active {
+.contacto a:active {
 	color: #222;
 }
 
-
-/*Footer*/
+/*Pie de pagina*/
 footer {
   text-align: center;
   padding: 15px;
