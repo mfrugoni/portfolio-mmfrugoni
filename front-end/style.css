@@ -172,4 +172,7 @@ footer {
 	header { top: 275px; }
 	body {margin: 0px;}
 	section.descripcion {margin-right: 0px; margin-left: 0px;}
+	header img#aplogo { top: 286px; }
+	div.contacto#top { margin-left: 80%; }
+	div.contacto#top i { padding-right: 5%; font-size: 1.5em; }
 }
